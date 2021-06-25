@@ -1,0 +1,12 @@
+{
+  "name": "projetosautomacoes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "cypress run --browser chrome --no-exit"
+  },
+  "cypress-cucumber-preprocessor": {
+      "step_definitions": "cypress/support/steps"
+  }
+}
